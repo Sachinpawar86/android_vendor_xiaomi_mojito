@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/mojito
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/mojito/proprietary/system/system/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libcameraservice.so \
     vendor/xiaomi/mojito/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/mojito/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/xiaomi/mojito/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
